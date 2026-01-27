@@ -1,5 +1,6 @@
 
 
+
 -- categorias
 
 drop table if exists detalle_ventas;
