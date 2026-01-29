@@ -273,7 +273,7 @@ values (1, 4, 1, 0.36, 0.36, 0.40);
 --SELECTS
 
 -- categorias
-select * from categoria;
+select * from categorias;
 
 -- categoria_unidad_medida
 select * from categoria_unidad_medida;
