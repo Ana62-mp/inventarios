@@ -1,6 +1,5 @@
 
 
-
 -- categorias
 
 drop table if exists detalle_ventas;
@@ -273,7 +272,7 @@ values (1, 4, 1, 0.36, 0.36, 0.40);
 --SELECTS
 
 -- categorias
-select * from categorias;
+select * from categoria;
 
 -- categoria_unidad_medida
 select * from categoria_unidad_medida;
