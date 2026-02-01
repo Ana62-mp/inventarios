@@ -13,3 +13,17 @@ and prod.categoria = cat.codigo_cat
 select * from productos prod, unidades_medida udm, categoria cat
 where prod.udm = udm.codigo_udm
 and prod.categoria = cat.codigo_cat
+
+
+--////////////
+
+UPDATE cabecera_pedido
+SET estado = 'S'
+WHERE numero_pedido = 7;
+
+UPDATE detalle_pedido
+SET cantidad_recibida = 40, subtotal = 20
+WHERE codigo_detallep = 5;
+
+
+
